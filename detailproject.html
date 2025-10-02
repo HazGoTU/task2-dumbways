@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Project</title>
+    <script src="https://kit.fontawesome.com/e16e771a07.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .icon-container{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .duration i{
+            font-size: 1.5rem;
+            font-style: normal;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        p{   
+             max-width: 900px;
+             margin: 0 auto;
+             text-align: justify;
+             line-height: 1.6;
+             overflow-wrap: break-word;  
+             word-wrap: break-word;      
+             hyphens: none;              
+             white-space: normal;  
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            align-items: center;
+            justify-content: center;
+        }
+        @media (max-width:780px){
+            .container{
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                
+        
+            }
+            .container img{
+                width: 360px;
+                height: 360px
+            }
+            p{
+                max-width: 600px;
+                padding: 20px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed top-0 start-0 end-0 z-3 ">
+        <div class="container-fluid d-flex justify-content-between ">
+          <div class="d-flex flex-row align-items-center"><img src="/asssets/Land_Heritage_logo.svg" alt="navbar-logo" width="30" height="30" class="d-inline-block align-text-top">
+          <h4 class="navbar-brand m-0 p-0 fst-italic" >Land Heritage</h4></div>
+          
+          <button class="navbar-toggler border-0 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex " >
+              <li class="nav-item">
+                <a class="nav-link active text-secondary" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/project.html">Project</a>
+              </li>
+              <button class="rounded-pill active border-1 focus-ring btn btn-dark text-center" id="contactLink" style="width: 100px ; height: 35px;" onclick="window.location.href='/contact.html'">Contact</button>
+            </ul>
+          </div>
+          <span></span>
+        </div>
+      </nav>
+      <main class="mt-5 pt-4 col-12 " >
+        <div class="d-flex flex-column my-6 align-items-center gap-4 " >
+             <h1>Green Action App</h1>
+             <div class="container ">
+                <img src="/asssets/greenactionapp.png" alt="" style="max-width: 450px;max-height:450px ;">
+                <div style="display: flex;flex-direction: column; gap: 40px;">
+                    <div class="duration d-flex flex-column gap-2">
+                        <h5>Duration</h5>
+                        <i class="bi bi-calendar-week" ><span style="font-size:medium;">01 Sept 2025-01 Okt 2025</span></i>
+                        <i class="bi bi-clock-history" ><span style="font-size: medium;">1 month</span></i>
+                    </div>
+                    <div>
+                        <h5>Technologies</h5>
+                        <div style="display: grid;grid-template-columns: auto auto ;font-size: 1.5rem;width: 300px;">
+                           <div class="icon-container">
+                            <i class="bi bi-typescript"></i>
+                            <h6>Typescript</h6>
+                           </div >
+                           <div class="icon-container">
+                            <i class="fa-brands fa-react"></i>
+                            <h6>React Js</h6> 
+                           </div>    
+                           <div class="icon-container">
+                            <i class="fa-brands fa-node"></i>
+                            <h6>Node Js</h6>
+                           </div>
+                           <div class="icon-container">
+                            <i class="fa-brands fa-jenkins"></i>
+                            <h6>Jenkins</h6>
+                           </div>    
+                        </div>
+                    </div>
+                    <div>
+                        <h5>Feature Application</h5>
+                        <ul>
+                            <li>Environmental Articles and News</li>
+                            <li>Carbon Footprint Calculator</li>
+                            <li>Photo Gallery</li>
+                            <li>Eco-Tips</li>
+                        </ul>
+
+                    </div>
+                
+                </div>
+
+
+             </div>
+             <div style="max-width: 900px; margin: 0 auto;">
+                <p class="px-6 px-md-5 p-" style="text-align: justify;overflow-wrap: break-word;word-wrap: break-word;" >Green Action was conceived as a direct response to the alarming rise of environmental challenges such as pollution, deforestation, and climate change, whose impacts are becoming increasingly evident in daily life. The accelerating pace of ecological degradation highlights a critical gap between environmental awareness and concrete, sustainable action. Green Action aims to bridge this gap by providing not only information but also practical tools that empower individuals and communities to actively contribute to environmental preservation.<br>
+
+                The primary target of Green Action is the general public, with a specific focus on youth, who represent the driving force of future change. By engaging young generations through digital platforms,Green Action seeks to cultivate a culture of responsibility and innovation in addressing environmental crises. The website is designed to foster awareness, disseminate scientific knowledge in accessible language, and inspire individuals to integrate eco-friendly practices into their daily routines.
+                <br>
+                Furthermore, the purpose of Green Action extends beyond education. It envisions itself as a collaborative hub where environmentally conscious individuals, organizations, and communities can converge,share initiatives, and build collective strategies. This participatory model emphasizes the need for cooperation and solidarity in tackling issues that transcend geographical and politicalboundaries. The platform aspires to shift environmentalism from a niche concern into a shared societal priority.
+                <br>
+                In terms of development, Green Action adopts a dynamic and adaptive approach. The website will continuously evolve to respond to emerging environmental issues, scientific advancements, and user needs. Features such as interactive campaigns, volunteer recruitment, and digital advocacy tools will be gradually integrated, ensuring that the platform remains relevant, impactful, and capable of mobilizing large-scale participation. By prioritizing inclusivity and accessibility, Green Action seeks to remove barriers that often prevent broader engagement in sustainability movements.
+                <br>
+                Ultimately, Green Action positions itself not merely as an informational platform but as an engine of transformation. It challenges the passivity that often surrounds environmental discourse and emphasizes the urgency of concrete action. By combining critical knowledge dissemination with practical engagement opportunities, Green Action endeavors to build a generation of citizens who are notonly aware of environmental issues but also equipped and motivated to act. In doing so, it contributes to the global pursuit of a more sustainable, equitable, and resilient future.</p>
+             </div>
+        </div>
+       
+      </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

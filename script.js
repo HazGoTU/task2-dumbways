@@ -11,9 +11,11 @@ function showMenu(){
    
    
 }
-
-const windowContact = document.getElementById('windowContact').addEventListener('click', newWindow)
-function newWindow(){
-    window.open("/contact.html")
-    console.log("new window is openned")
-}
+let projectNameValue=document.getElementById('projectName')
+let forms = document.getElementById('projectForms')
+forms.addEventListener('submit',function(e){
+     e.preventDefault()
+     const currentProjectNameValue = projectNameValue.value
+     
+     console.log(currentProjectNameValue)
+})
