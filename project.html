@@ -15,6 +15,14 @@
             flex: 1 1 0;
         }
         
+      @media (max-width:780px){
+        .container{
+            grid-template-columns: auto;
+        }
+        .container2{
+            grid-template-columns: auto;
+        }
+      }
     </style>
 </head>
 <body>
@@ -43,8 +51,8 @@
           <span></span>
         </div>
       </nav>
-    <main class="mt-5 pt-4 ">       
-        <div class="d-flex flex-column justify-content-center align-items-center bg-secondary py-5 " >
+    <main class="mt-5 pt-1 " style="height: 1vh;">       
+        <div class="d-flex flex-column justify-content-center align-items-center bg-secondary py-1 " style="height: 95vh">
             <h1 class="mb-5">ADD PROJECT</h1>
             <form class="d-flex flex-column col-11 col-md-8 col-lg-6  m-0 p-0" id="projectForms" >
                 <div class="p-1">
@@ -108,7 +116,7 @@
         <div class="d-flex flex-column justify-content-center align-items-center py-5 row-12 ">
             <h1>PROJECT</h1>
 <!--card project start-->
-            <div class="" style=" display: grid;grid-gap:10px;grid-template-columns: auto auto;" >
+            <div class="container" style=" display: grid;grid-gap:10px;grid-template-columns: auto auto;" >
                 <div class="card p-2 shadow" style="width: 18rem;" id="cardContainer">
                   <img src="" class="card-img-top rounded  " alt="card-image"  id="cardImage" >
                   <div class="card-body">
